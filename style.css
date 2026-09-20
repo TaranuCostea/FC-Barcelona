@@ -28,8 +28,63 @@ header {
   background-color: #212529;
 }
 
-.logo-img img {
+.logo img {
   width: 100px;
   height: auto;
+  padding:0;
   
 }
+header .logo-name a {
+  position: relative;
+  bottom: 50px;
+  padding-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+ header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+header .navigation {
+  flex-basis: 100%;
+  margin-top: 1rem;
+  display: none;
+}
+header .navigation.active {
+  display: block;
+}
+header .btn-toggle {
+ background:transparent;
+ color:#fff;
+ border: solid 2px #fff;
+ border-radius: 5px;
+ padding: 0.5rem;
+
+}
+header .nav-items {
+  list-style: none;
+}
+
+.nav-items .nav-link {
+ text-decoration: none;
+ color: #fff;
+ padding: .5rem 1rem;
+ display: block;
+ border-radius: 5px;
+  
+}
+
+.nav-items .nav-link:hover {
+ background-color: #0673bc;
+ padding-left: 1.5rem;
+ transition: all 0.5s ease;
+}
+
