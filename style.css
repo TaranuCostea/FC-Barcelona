@@ -40,6 +40,7 @@ body {
 section:not(.hero) {
   padding: 6rem 0;
 }
+<<<<<<< HEAD
 section > .section-title {
   text-align:center;
   font-size: 2rem;
@@ -50,6 +51,8 @@ section > .section-subtitle {
   color: #6c757d;
   margin-bottom: 3rem;
 }
+=======
+>>>>>>> 5929aa5b5d98f47efc24fa4be75c211639cc40b6
 
 /* Header styles  */
 header {
@@ -150,6 +153,7 @@ header .nav-items {
 
 .hero-content p {
   margin-bottom: 2rem;
+<<<<<<< HEAD
 }
 
 /* Qualities style */
@@ -168,4 +172,6 @@ header .nav-items {
 .qualitie-card .qualitie-title {
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
+=======
+>>>>>>> 5929aa5b5d98f47efc24fa4be75c211639cc40b6
 }
